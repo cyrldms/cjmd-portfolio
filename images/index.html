@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>  
+        <title>Damos: Portfolio</title>
+        <link rel = "stylesheet" href = "styles.css"> 
+    </head>
+    <body>
+        <header>
+            <img src = "images/damos-logo.png" alt="damos-logo" id="logo">
+            
+            <nav>
+                <a href = "#home">HOME</a>
+                <a href = "#projects">EXPERIENCES</a>
+                <a href = "#contact">PROJECTS</a>
+            </nav>
+        </header>
+
+        <main>
+            <section id = "intro">
+                <div class = "intro-text">
+                    <h1>CYRILE JANE DAMOS</h1>
+                    <p>Yet to be an expert, but enjoying coding and learning things along the way. Every project helps me grow and improve my skills.</p>
+                    <div class="viewProj">
+                        <button type ="button" onclick="viewProjects()">See Projects</button> 
+                    </div>
+                </div>
+                <div class = "pfp">
+                    <img src = "images/pfp.png" alt ="profile-pic" id = "pfp">
+                </div>
+            </section>
+            <section id = "about">
+                <div class="abt-title">
+                    <h1>ABOUT ME</h1>
+                    <p> I am currently aspiring to be a professional who connects both hardware and software.</p>
+                </div>
+
+                <div class = "abt-content">
+                    <div class = "left">
+                        <h2>EDUCATIONAL BACKGROUND</h2>
+                        <ul class = "edu-bg">
+                            <li>Mapua Malayan Colleges of Mindanao, Davao City, Philippines (2023 - Present)</li>
+                            <li>Senior High School: Malayan Colleges of Mindanao, Davao City, Philippines (2021-2023)</li>
+                            <li>Junior High School: Davao City Special National High School, Davao City, Philippines (2017-2021)</li>
+                            <li>Elementary: Davao City Special School, Davao City, Philippines</li>
+                        </ul>
+                    </div>
+
+                    <div class = "right">
+                        <h2>SKILLS</h2>
+                        <label for = "web-design"><strong>WEB DESIGN (HTML, CSS, JS)</strong></label>
+                        <br>
+                        <progress id = "web-design" value = "30" max = "100"></progress>
+                        <span class = skill-note>Basic page stucture, forms, links</span>
+                        
+                        <label for = "cpp"><strong>C++</strong></label>
+                        <br>
+                        <progress id = "cpp" value = "25" max = "100"></progress>
+                        <span class = skill-note>Basic knowledge in data structures</span>
+
+                        <label for = "csharp"><strong>C#</strong></label>
+                        <br>
+                        <progress id = "csharp" value = "10" max = "100"></progress>
+                        <span class = skill-note>Basic understanding in OOP</span>
+
+                        <label for ="python"><strong>PYTHON</strong></label>
+                        <br>
+                        <progress id ="python" value = "40" max = "100"></progress>
+                        <span class = skill-note>Basic understanding of data processing</span>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id = "exp">
+                    <h1>Experiences</h1>
+                <div class = "exp-content">
+                    <ul>
+                        <li>
+                            <strong>MMCM CPE Documentation Team</strong><br>
+                            Documentation Member (2024 - Present)<br>
+                            • Helped compile event documentation<br>
+                            • Supported CPE activities when available<br>
+                            • Learned teamwork and basic reporting
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id = "proj">
+                    <h1>Projects</h1>
+                    <p>Below are the projects that I have done as a requirement for my subjects.</p>
+                </div>
+                <div class = "proj-content">
+                    <div class="proj-box">
+                        <img src="images/PitStop.png" alt="PitStop">
+                        <p class ="proj-title">PitStop Parking System</p>
+                        <p><strong>Role:</strong>Developer and Designer</p>
+                        <p><strong>Duration:</strong>January 2025 -  March 2025</p>
+                        <p>It is coded in C# with an SQL database, utilizing our knowledge in Data Structure and Algorithms.The PitStop Parking System is a smart reservation-based solution for efficient school parking.</p>
+                    </div>
+
+                    <div class="proj-box">
+                        <img src="images/SwiftMart_logo.png" alt="SwiftMart">
+                        <p class ="proj-title">SwiftMart</p>
+                        <p><strong>Role:</strong>Developer and Designer</p>
+                        <p><strong>Duration:</strong>August 2024 - November 2024</p>
+                        <p>The language of this project is in C# utilizing database in MySQL. SwiftMart is an e-commerce app, utilizing point-of-sale system.</p>
+                    </div>
+
+                    <div class="proj-box">
+                        <img src="images/POS.png" alt= "POS Sys">
+                        <p class ="proj-title">POS MartPro System</p>
+                        <p><strong>Role:</strong>Developer</p>
+                        <p><strong>Duration:</strong>March 2024 - July 2024</p>
+                        <p>POS MartPro System is a point-of-sale system designed to track the sales of small commercials. The language used in this application is Java.</p>
+                    </div>
+
+                        <div class="proj-box">
+                            <img src="images/EatMunaEms.png" alt="EatMunaEms">
+                            <p class ="proj-title">EatMunaEms</p>
+                            <p><strong>Role:</strong>Game Logic Developer</p>
+                            <p><strong>Duration:</strong>January 2024 - March 2024</p>
+                            <p>EatMunaEms is based on the classic Python game titled "Snake". It is made with Pygame.</p>
+                        </div>
+
+                    <div class="proj-box">
+                        <img src = "images/ApexHub.png" alt = ApexHub>
+                        <p class ="proj-title">ApexAlign</p>
+                        <p><strong>Role:</strong>Developer</p>
+                        <p><strong>Duration:</strong>September 2023 - November 2023</p>
+                        <p>This is my first ever project in Python and coding. ApexAlign Fitness Hub provides a solution by offering a user-friendly booking system that uses CRUD operations, simple computations, and a unique fitness challenge generator.</p>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </body>
+</html>
